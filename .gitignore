@@ -2,6 +2,9 @@ venv/
 .venv/
 env/
 TEST
+RAG.pyc
+blog.py
+db.sqlite3
 
 # Игнорировать кэш Python
 __pycache__/
