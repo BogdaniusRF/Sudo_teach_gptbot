@@ -4,7 +4,15 @@ from aiogram import Bot, Dispatcher
 from dotenv import load_dotenv
 from app.user import user
 from app.admin import admin
-from app.database.models import async_main
+from app.database.models_Postgre import async_main
+
+
+
+#SQlite3
+#from app.database.models import async_main
+#Postgres
+from app.database.models_Postgre import async_main
+
 
 
 async def main():
